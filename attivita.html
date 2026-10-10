@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="immagini/favicon.ico">
+        <title>Azienda Agricola F.lli Furlanis</title>
+        <style>
+            
+            /* Reset globale */
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Sidebar fissa */
+            .sidebar {
+                position: fixed; 
+                top: 0;
+                left: 0;
+                width: 250px;    
+                height: 100vh;   
+                background-color: red;
+                color: white;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            }
+            
+            /* Logo nella sidebar */
+            .sidebar .logo {
+                max-width: 251px;
+                margin-bottom: 10px;
+            }
+
+            /* Contenitore della navigazione */
+            .sidebar nav {
+                width: 100%;
+            }
+
+            /* Singoli elementi della lista nella sidebar*/
+            .sidebar li {
+                margin-bottom: 15px;
+            }
+            
+            /* Link di navigazione */
+            .sidebar a {
+                color: #ecf0f1;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+                padding: 10px;
+                border-radius: 4px;
+                transition: background 0.3s;
+            }
+
+            /* Effetto hover sui link */
+            .sidebar a:hover {
+                background-color: #ff6868;
+            }
+
+            /* Contenuto principale */
+            .main-content {
+                margin-left: 250px; /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
+                padding: 40px;
+                width: calc(100% - 250px);
+            }
+
+            /* Linea divisoria */
+            hr {
+            border: none; 
+            height: 3px; 
+            background-color: #ff0000;
+            }
+
+            li {
+                margin-bottom: 20px; /* Regola i pixel in base allo spazio desiderato per mantenere le immagini in colonna */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- classe: slidebar -->
+        <div class="sidebar">
+            <!-- logo -->
+                <img src="immagini/immaginehome.png" alt="Azienda Agricola F.lli Furlanis" class="logo">
+            <!-- lista di navigazione -->
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="attivita.html">Attività e Laboratori</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <!-- classe: main -->
+        <div class="main-content">
+            <h1>Attività e Laboratori</h1>
+            <br><hr><br>
+            La FATTORIA DIDATTICA si concentra principalmente sull’educazione di persone di qualsiasi età attraverso: 
+            <br>attività pratiche svolte all’esterno in un percorso attraverso orti, vigneto e animali ed attività teoriche svolte all’interno della dell’edificio principale.
+            <br>Le attività offerte sono basate principalmente sulla coltivazione raccolta e rielaborazione delle materie prime aziendali.
+            
+            <br><br><b>Accessibilità e Inclusione:</b>
+            Tutte le nostre proposte sono interamente accessibili e modellate sulle esigenze di persone di ogni età e abilità. Crediamo in un'ecologia umana e inclusiva, dove la natura diventa spazio d'incontro, crescita e riconnessione per tutti.
+            <br><br>Per maggiori informazioni contattare l'azienta tramite i contatti a fine pagina
+            <br><br>
+            <b>Attività offerte:</b>
+            <br><br>
+            <ul>
+                                
+                <img src="immagini/animali_cortile.jpeg" width="350" height="210" alt="Foto 1" style="float: right; margin: 20px;">
+                
+                <li><b>Cura e rispetto degli animali da cortile</b>
+                <p>Un incontro ravvicinato e guidato con galline, conigli e gli altri piccoli abitanti della fattoria. Attraverso l'accudimento, il rispetto dei loro tempi e la somministrazione del cibo, promuoviamo l'empatia e la tutela di ogni essere vivente.<br></p></li>
+
+                <li><b>Piccoli pollici verdi: giardinaggio esperienziale</b>
+                <p>Prendersi cura di fiori, vasi e aiuole per comprendere la bellezza della biodiversità. I partecipanti imparano la semina, il trapianto e la gestione delle piante ornamentali, sviluppando pazienza, coordinazione e amore per il paesaggio.</p></li>
+
+                <li><b>L'orto secondo natura: orticoltura stagionale</b>
+                <p>Mani nella terra per scoprire come nascono gli ortaggi che arrivano sulla nostra tavola. Dalla preparazione del terreno al raccolto, un'attività pratica per apprendere i principi dell'agricoltura sostenibile, del consumo locale e del ciclo naturale.</p></li>
+
+                <li><b>Sentieri botanici: riconoscimento di erbe, arbusti e alberi</b>
+                <p>Una passeggiata guidata alla scoperta della flora nativa tra specie erbacee, arbustive e arboree. Impariamo a osservare foglie, cortecce e frutti, sviluppando uno sguardo attento verso l'ecosistema che ci circonda e l'importanza della sua <br>salvaguardia.</p></li>
+                                
+                <img src="https://www.vita.it/wp-content/uploads/2023/07/075b1023-a50e-4713-94cc-01eaf7d11043_large.jpg.jpeg" width="350" height="210" alt="Foto 1" style="float: right; margin: 20px;">
+                
+                <li><b>Erboristeria spontanea: piante medicinali e alimurgiche</b>
+                <p>Un'immersione nel mondo delle erbe officinali e spontanee. Impariamo a riconoscerle nei campi, a raccoglierle nel rispetto dell'ambiente e a comprenderne i tradizionali usi curativi, cosmetici e alimentari trasmessi dal sapere popolare.</p></li>
+                
+                <li><b>L'arte della conservazione degli alimenti</b>
+                <p>Essiccatura, salamoie, confetture e sottoli: laboratorio pratico dedicato alle tecniche tradizionali per conservare i doni della terra. Un percorso educativo contro lo spreco alimentare e a favore di uno stile di vita orientato alla sostenibilità.</p></li>
+
+                <li><b>Raccolta e pigiatura dell'uva (Agosto - Settembre)</b>
+                <p>Riviviamo il fascino dell'antica vendemmia toccando con mano la terra e i suoi frutti. Dalla raccolta dei grappoli alla classica pigiatura a piedi nudi, un'esperienza sensoriale unica per celebrare il ritmo delle stagioni e la tradizione vitivinicola locale.</p></li>
+
+                <li><b>Dal grano al forno: la produzione del pane</b>
+                <p>Un viaggio che parte dai cereali per arrivare al profumo del pane fresco appena sfornato. I partecipanti imparano a impastare, <br>lievitare e modellare la propria pagnotta, riscoprendo la gestualità artigianale e il valore del cibo condiviso.</p></li>
+
+                <img src="https://www.mammapretaporter.it/media/k2/items/cache/6ce40ca473ef510f24fbc7453f694e63_XL.jpg" width="350" height="210" alt="Foto 1" style="float: right; margin: 20px;">
+                
+                <li><b>Mani in pasta: lezioni di cucina tradizionale</b>
+                <p>Un laboratorio culinario incentrato sui piatti tipici del territorio, realizzati con ingredienti a km zero provenienti dalla fattoria. Si impara cucinando insieme, valorizzando le ricette della memoria e la semplicità dei prodotti genuini.</p></li>
+                
+                <li><b>I dolci della memoria e della tradizione</b>
+                <p>Alla riscoperta dei sapori autentici di una volta attraverso la preparazione dei dolci tipici delle feste e della campagna. Un'attività che unisce manualità, narrazione e il piacere di condividere ricette che profumano di casa.</p></li>
+                
+                <li><b>Decorazione creativa con elementi della natura</b>
+                <p>Fiori secchi, pigne, rametti e foglie diventano materia prima per realizzare piccoli capolavori d'arredo. Un laboratorio per stimolare la fantasia, l'espressione personale e il riuso creativo, lasciandosi ispirare dalle forme e dai colori naturali.</p></li>
+
+                <li><b>Tinture naturali: decorazione delle uova con piante locali</b>
+                <p>Un'antica tecnica che utilizza foglie, fiori e bucce per stampare ed estrarre pigmenti naturali sulle uova di fattoria. Un'esperienza affascinante che fonde tradizione, arte e chimica verde senza l'uso di sostanze sintetiche.</p></li>
+                
+                <img src="https://www.familleheureuse.fr/uploads/articles/g/hero/27f60f27e0f1bcec8ec291c0e0c3b248667f37e6dd44f8c87fe9f6d86b74438b.jpg" width="350" height="210" alt="Foto 2" style="float: right; margin: 20px;">
+                
+                <li><b>Intaglio e magia della zucca di Halloween (Ottobre)</b>
+                <p>Dalla terra alla scultura: i partecipanti scelgono la propria zucca coltivata nell'orto per intagliarla o decorarla. Un'occasione ludica e inclusiva per festeggiare l'autunno, stimolare la manualità e portare a casa un ricordo unico.</p></li>
+
+                <li><b>Passeggiate immersive nella natura</b>
+                <p>Percorsi accessibili a tutti tra i paesaggi del Veneto orientale per rallentare il ritmo e stimolare la percezione sensoriale. Un modo dolce per osservare la fauna, ascoltare i suoni della natura e rigenerare corpo e mente all'aria aperta.</p></li>
+                
+                <li><b>Meditazione e connessione consapevole in natura</b>
+                <p>Sessioni di respirazione e presenza mentale immerse nel silenzio del verde. Un'esperienza pensata per ritrovare l'equilibrio interiore, ridurre lo stress e percepire la profonda connessione tra l'essere umano e la Terra.</p></li>
+            </ul>
+            <br><br><hr><br>
+            <p style="text-align: center">
+                <b>CONTATTI</b>:<br><b>Tel</b> 0421275123<br><b>Email</b> info@aziendaagricolaFurlanis.it
+            </p>
+        </div>
+    </body>
+    <script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>      
+</html>

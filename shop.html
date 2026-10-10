@@ -1,0 +1,267 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="immagini/favicon.ico">
+        <title>Azienda Agricola F.lli Furlanis</title>
+        <style>
+            /* Reset globale */
+            * {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+            }
+
+            /* Sidebar fissa */
+            .sidebar {
+                position: fixed; /* Mantiene l'elemento fisso sullo schermo */
+                top: 0;
+                left: 0;
+                width: 250px;    
+                height: 100vh;   
+                background-color: red;
+                color: white;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            }
+            
+            /* Logo nella sidebar */
+            .sidebar .logo {
+                max-width: 251px;
+                margin-bottom: 10px;
+            }
+
+            /* Contenitore della navigazione */
+            .sidebar nav {
+                width: 100%;
+            }
+
+            /* Singoli elementi della lista */
+            .sidebar li {
+                margin-bottom: 15px;
+            }
+
+            /* Link di navigazione */
+            .sidebar a {
+                color: #ecf0f1;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+                padding: 10px;
+                border-radius: 4px;
+                transition: background 0.3s;
+            }
+
+            /* Effetto hover sui link */
+            .sidebar a:hover {
+                background-color: #ff6868;
+            }
+
+            /* Contenuto principale */
+            .main-content {
+                margin-left: 250px; /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
+                padding: 40px;
+                width: calc(100% - 250px);
+            }
+
+            /* Tabella */
+            table {
+                border-collapse: collapse;
+                width: 90%; 
+                text-align: justify;
+            }
+
+            /* Propietà righe e colonne */
+            th, td {
+                border-bottom: 2px solid black; /* Colore e spessore della riga */
+                padding: 12px 8px; /* Spaziatura per far respirare il testo */
+                text-align: left;
+            }
+
+            /* Linea divisoria */
+            hr {
+                border: none; 
+                height: 3px; 
+                background-color: #ff0000;
+            }
+        </style>           
+    </head>
+    <body>
+        <!-- classe: slidebar -->
+            <div class="sidebar">
+                <!-- logo -->
+                    <img src="immagini/immaginehome.png" alt="Azienda Agricola F.lli Furlanis" class="logo">
+                <!-- lista di navigazione -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="attivita.html">Attività e Laboratori</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- classe: main -->
+        <div class="main-content">
+            <h1>Shop</h1>
+            <br><hr><br>
+            <p style="font-family: Georgia; font-size: 1.0em;">
+                Nell’azienda agricola è presente un piccolo spaccio di prodotti locali. 
+                <br>Sono presenti diversi stakeholder di aziende locali interessate ad esporre e vendere la loro produzione all’interno dell’azienda.
+                Inoltre sono in vendita anche i prodotto ottenuti dalle materie prime coltivate all’interno dell’azienda, una parte dei prodotti è proprio quella che viene prodotta mediante le attività della fattoria didattica
+                <br>Il raccolto del vigneto viene inviato alla società ViVo cantine dove viene usato insieme ai raccolti di altri soci per produrre vino
+                <br><br>
+            <table cellpadding="10" >
+                <tr>
+                    <td>
+                        <img src="immagini/sambuco.jpeg" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Sciroppo di sambuco</b>
+                        <br>Ingredienti: fiori di sambuco, acqua, limoni, zucchero
+                        <br><br><b>10.00€ al L</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://media.istockphoto.com/id/1270966072/photo/spine-prunus-spinosa.jpg?s=612x612&w=0&k=20&c=IgQvpNBzCuE278pW7UtvTlnPWTkAua0m26Y6e208vjs=" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Grappa di mirto</b>
+                        <br>Ingredienti: grappa bianca, mirtilli e zucchero
+                        <br><br><b>20.00€ al L</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.uh-ZIp8NmD0MVib0hgDvegHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Nocino</b>
+                        <br>Ingredienti: malli di noce verdi, alcool buongusto, zucchero, acqua, cannella e limone
+                        <br><br><b>17.00€ al L</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://medicinaonline.co/wp-content/uploads/2017/02/medicina-online-marmellata-di-pesche-fatta-in-casa-vasetto-disinfettato-batulino-conserve-vaso-vetro-jam-marmelade-marmelde-frutta-light-leggera-zucchero-ricetta-facile-veloce-gustosa-di.jpg" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Marmellata di pesche</b>
+                        <br>Ingredienti: pesche, zucchero e limone
+                        <br><br><b>4.50€ per 270g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://home.morele.net/wp-content/uploads/2024/12/co-zrobic-z-gruszek-zima-dzem.jpg" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Marmellata di pere</b>
+                        <br>Ingredienti: pere, zucchero e cannella
+                        <br><br><b>4.50€ per 270g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://dolciveloci.it/wp-content/uploads/2019/07/SH_marmellata_ai_fichi-768x512.jpg" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Marmellata di fichi</b>
+                        <br>Ingredienti:fichi, zucchero e limone
+                        <br><br><b>4.50€ per 270g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://primochef.it/wp-content/uploads/2022/05/SH_pesto_di_prezzemolo.jpg" width="130" height="100">
+                    </td>
+                    <td> 
+                        <b>Pesto</b>
+                        <br>Ingredienti: basilico fresco, pinoli, parmigiano, pecorino, aglio, olio di oliva e sale
+                        <br><br><b>6.50€ per 200g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://th.bing.com/th/id/R.98f8447acc7b5f6b189f743db0c2aa6d?rik=XB58NGw7eSmmZw&riu=http%3a%2f%2fwww.puglia.com%2fwp-content%2fuploads%2f2015%2f09%2fsalsa-di-pomodoro-come-farla-in-casa-ricetta.jpg&ehk=XmBxWhfexPiy5ZMohsCabWtkiLicT6vKsGEsSVGcnik%3d&risl=&pid=ImgRaw&r=0" width="130" height="100">
+                    </td>
+                    <td>   
+                        <b>Salsa di pomodoro</b>
+                        <br>Ingredienti: pomodori, cipolla, aglio, olio di oliva e sale
+                        <br><br><b>5.50€ per 200g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://saucechick.s3.amazonaws.com/wp-content/uploads/2023/10/11044945/Bolognese-Meat-Sauce-2-500x500.jpeg" width="130" height="100">
+                    </td>
+                    <td>   
+                        <b>Ragù di maiale</b>
+                        <br>Ingredienti: carne di maiale, cipolla, sedano, carota, vino rosso, pomodoro, olio di oliva, sale e pepe
+                        <br><br><b>6.50€ per 200g</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://www.rete-news.it/wp-content/uploads/2015/02/pancetta-arrotolata-fatta-in-casa-800x800.jpg" width="130" height="110">
+                    </td>
+                    <td>
+                        <b>Pancetta</b>                 
+                        <br><br><b>9.00€ al Kg</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://www.newsabruzzo.it/wp-content/uploads/2023/04/Salame-20042023-newsabruzzo.jpg" width="130" height="100">
+                    </td>
+                    <td>  
+                        <b>Salame</b>
+                        <br><br><b>14.00€ al Kg</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://th.bing.com/th/id/R.c917467887d01b16aff60cee37c94b86?rik=pk%2foi9GJWm2XOQ&riu=http%3a%2f%2fwww.greenpink.org%2fwp-content%2fuploads%2f2015%2f11%2fortaggi_O1.jpg&ehk=ArPJYlMyLsP2QBXtChmuwRSHO3gvvQii4g41Lj0KWLw%3d&risl=&pid=ImgRaw&r=0" width="130" height="90">
+                    </td>
+                    <td>
+                        <b>Verdure di stagione</b>                 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://it.thecookinghacks.com/wp-content/uploads/sites/2/2020/06/spesa-maggio-frutta-verdura-stagione-768x476.jpg" width="130" height="90">
+                    </td>
+                    <td>
+                        <b>Frutta di stagione</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://th.bing.com/th/id/R.9e6b85881fd9a4059678db269517e45e?rik=jC%2bkkmNlvZ3Ivg&riu=http%3a%2f%2fst.depositphotos.com%2f1086792%2f2604%2fi%2f950%2fdepositphotos_26042733-Bakery-products.jpg&ehk=QQF6%2bm1UlqCMSSx3SpQXRJ7Hkl71QiX1klK6AO7%2fPeM%3d&risl=&pid=ImgRaw&r=0" width="130" height="100">
+                    </td>
+                    <td>
+                        <b>Rivendita prodotti da forno locali</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.vivocantine.it/it/i-vini/le-nostre-linee/catalogo-vini"><img src="https://img.freepik.com/vettori-premium/disegni-vettoriali-ad-acquerello-di-rami-di-vite-con-acini-d-uva-maturi-e-varie-bottiglie-di-vino_643926-360.jpg" width="130" height="110"></a>
+                    </td>
+                    <td>
+                        <b><a href="https://www.vivocantine.it/it/i-vini/le-nostre-linee/catalogo-vini" style="color:rgb(0, 0, 0); text-decoration:none;">Rivendita vini</b></a>
+                    </td>
+                </tr>
+            </table>
+            </p><br>
+            <p style="text-align: justify;"><br><b>ALTRI PRODOTTI IN ARRIVO</b></td></p>
+            <br><br>
+            <hr>
+            <br>
+            <p style="text-align: center">
+                <b>CONTATTI</b>:<br><b>Tel</b> 0421275123<br><b>Email</b> info@aziendaagricolafurlanis.it
+            </p>
+        </div>  
+    </body>
+    <script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>     
+</html>

@@ -8,23 +8,23 @@
 /* Sidebar fissa */
 .sidebar {
 	position: fixed; /* Mantiene l'elemento fisso sullo schermo */
-   	top: 0;
-   	left: 0;
-   	width: 250px;    
-   	height: 100vh;   
-   	background-color: red;
-   	color: white;
-   	padding: 10px;
-   	display: flex;
-   	flex-direction: column;
-   	align-items: center;
-   	box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+   top: 0;
+   left: 0;
+   width: 250px;    
+   height: 100vh;   
+   background-color: red;
+   color: white;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
             
 /* Logo nella sidebar */
 .sidebar .logo {
-   	max-width: 251px;
-   	margin-bottom: 10px;
+   max-width: 251px;
+   margin-bottom: 10px;
 }
 
 /* Contenitore della navigazione */
@@ -34,46 +34,46 @@
 
 /* Singoli elementi della lista */
 .sidebar li {
-   	margin-bottom: 15px;
+   margin-bottom: 15px;
 }
 
 /* Link di navigazione */
 .sidebar a {
-   	color: #ecf0f1;
-   	text-decoration: none;
-   	font-size: 18px;
-   	display: block;
-   	padding: 10px;
-   	border-radius: 4px;
-   	transition: background 0.3s;
+   color: #ecf0f1;
+   text-decoration: none;
+   font-size: 18px;
+   display: block;
+   padding: 10px;
+   border-radius: 4px;
+   transition: background 0.3s;
 }
 
 /* Effetto hover sui link */
 .sidebar a:hover {
-   	background-color: #ff6868;
+   background-color: #ff6868;
 }
 
 /* Contenuto principale */
 .main-content {
-   	margin-left: 250px;     
-   	padding: 40px;
-   	width: calc(100% - 250px);
+   margin-left: 250px;     /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
+   padding: 40px;
+   width: calc(100% - 250px);
 }
 
 /* Classe per immagine centrale */
 .main-content .immaginecentro {
-   	display: block;
-   	margin-left: auto;
-   	margin-right: auto;
-   	width:  100%; 
-   	height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	width: 100%; 
+	height: auto;
 }
             
 /* Linea divisoria */
 .main-content hr {
-   	border: none; 
-   	height: 3px; 
-   	background-color: #ff0000;
+   border: none; 
+   height: 3px; 
+   background-color: #ff0000;
 }
 
 /* titolo 1 */
@@ -98,6 +98,13 @@
 	font-size: 1.2em;
 }
 
+/* paragrafo home*/
+.main-content .paragrafo-home {
+	font-family: Georgia; 
+	text-indent: 50px; 
+	font-size: 1.0em;
+}
+
 /* paragrafo */
 .main-content p {
 	font-family: Georgia;
@@ -119,8 +126,8 @@
 /* tabella shop */		
 .main-content .tabella-shop{
 	border-collapse: collapse; 
-   	padding: 12px;
-   	text-align: left;
+   padding: 12px;
+   text-align: left;
 }
 
 .main-content .tabella-shop tr{
@@ -144,3 +151,4 @@
 	float: right; 
 	margin: 20px;
 }
+

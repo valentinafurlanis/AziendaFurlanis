@@ -1,119 +1,148 @@
-            /* Reset globale */
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
+/* Reset globale */
+* {
+	box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 
-            /* Sidebar fissa */
-            .sidebar {
-                position: fixed; /* Mantiene l'elemento fisso sullo schermo */
-                top: 0;
-                left: 0;
-                width: 250px;    
-                height: 100vh;   
-                background-color: red;
-                color: white;
-                padding: 10px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-            }
+/* Sidebar fissa */
+.sidebar {
+	position: fixed; /* Mantiene l'elemento fisso sullo schermo */
+   top: 0;
+   left: 0;
+   width: 250px;    
+   height: 100vh;   
+   background-color: red;
+   color: white;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
             
-            /* Logo nella sidebar */
-            .sidebar .logo {
-                max-width: 251px;
-                margin-bottom: 10px;
-            }
+/* Logo nella sidebar */
+.sidebar .logo {
+   max-width: 251px;
+   margin-bottom: 10px;
+}
 
-            /* Contenitore della navigazione */
-            .sidebar nav {
-                width: 100%;
-            }
+/* Contenitore della navigazione */
+.sidebar nav {
+	width: 100%;
+}
 
-            /* Singoli elementi della lista */
-            .sidebar li {
-                margin-bottom: 15px;
-            }
+/* Singoli elementi della lista */
+.sidebar li {
+   margin-bottom: 15px;
+}
 
-            /* Link di navigazione */
-            .sidebar a {
-                color: #ecf0f1;
-                text-decoration: none;
-                font-size: 18px;
-                display: block;
-                padding: 10px;
-                border-radius: 4px;
-                transition: background 0.3s;
-            }
+/* Link di navigazione */
+.sidebar a {
+   color: #ecf0f1;
+   text-decoration: none;
+   font-size: 18px;
+   display: block;
+   padding: 10px;
+   border-radius: 4px;
+   transition: background 0.3s;
+}
 
-            /* Effetto hover sui link */
-            .sidebar a:hover {
-                background-color: #ff6868;
-            }
+/* Effetto hover sui link */
+.sidebar a:hover {
+   background-color: #ff6868;
+}
 
-            /* Contenuto principale */
-            .main-content {
-                margin-left: 250px;     /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
-                padding: 40px;
-                width: calc(100% - 250px);
-            }
+/* Contenuto principale */
+.main-content {
+   margin-left: 250px;     /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
+   padding: 40px;
+   width: calc(100% - 250px);
+}
 
-			 /* Classe per immagine centrale */
-            .main-content .immaginecentro {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-				width: 50%; 
-				height: auto;
-            }
-            /* Linea divisoria */
-            .main-content hr {
-                border: none; 
-                height: 3px; 
-                background-color: #ff0000;
-            }
+/* Classe per immagine centrale */
+.main-content .immaginecentro {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	width: 50%; 
+	height: auto;
+}
+            
+/* Linea divisoria */
+.main-content hr {
+   border: none; 
+   height: 3px; 
+   background-color: #ff0000;
+}
 
-		/* titolo 1 */
-		.main-content h1 {
-			font-family: Georgia,sans-serif;
-			text-indent: 30px; 
-			font-size: 2.0em;
-		}
+/* titolo 1 */
+.main-content h1 {
+	font-family: Georgia,sans-serif;
+	text-indent: 30px; 
+	font-size: 2.0em;
+}
 		
-		/* titolo 2 */
-	   .main-content h2 {
-			font-family: Georgia, sans-serif; 
-			text-indent: 30px; 
-			font-size: 1.2em;
+/* titolo 2 */
+.main-content h2 {
+	font-family: Georgia, sans-serif; 
+	text-indent: 30px; 
+	font-size: 1.2em;
+}		
+
+/* titolo 3 */
+.main-content h3 {
+	font-family: Georgia; 
+	text-indent: 60px; 
+	color: red; 
+	font-size: 1.2em;
+}
+
+/* paragrafo */
+.main-content p {
+	font-family: Georgia; 
+	text-indent: 50px; 
+	font-size: 1.0em;
+}
+
+/* tabella introduzione */		
+.main-content .tabella-introdizione {
+	margin-left: 60px; 
+	margin-right: 90px; 
+	display:block;
+}
 		
-		/* titolo 3 */
-	   .main-content h3 {
-			font-family: Georgia; 
-			text-indent: 60px; 
-			color: red; 
-			font-size: 1.2em;
-	   .main-content p {
-			font-family: Georgia; 
-			text-indent: 50px; 
-			font-size: 1.0em;
-		}
-		
-		.main-content .tabella-introdizione {
-			margin-left: 60px; 
-			margin-right: 90px; 
-			display:block;
-		}
-		
-		.main-content .tabella-immagini {
-			margin: auto;
-		}
-		
-		.main-content .tabellashop {
-		}
-		
-		.main-content .contatti {
-			text-align: center;
-		}
+/* tabelle immagini home */
+.main-content .tabella-immagini {
+	margin: auto;
+}
+
+/* tabella shop */		
+.main-content .tabella-shop{
+	border-bottom: 2px solid black; /* Colore e spessore della riga */
+   padding: 12px 8px; /* Spaziatura per far respirare il testo */
+   text-align: left;
+}
+
+.main-content .tabella-shop tr{
+	border-bottom: 2px solid black;
+}
+
+.main-content .tabella-shop td{
+	border-right: 15px solid white;
+}
+
+/* stile informazioni contatti */	
+.main-content .contatti {
+	text-align: center;
+}
+
+.main-content li {
+	margin-bottom: 20px; /* Regola i pixel in base allo spazio desiderato per mantenere le immagini in colonna */
+}
+
+.main-content .immagini-attivita {
+	float: right; 
+	margin: 20px;
+}
 

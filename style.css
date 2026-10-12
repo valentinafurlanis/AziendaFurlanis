@@ -60,7 +60,7 @@
    width: calc(100% - 250px);
 }
 
-/* Classe per immagine centrale */
+/* stile immagine centrale */
 .main-content .immaginecentro {
    display: block;
    margin-left: auto;
@@ -69,28 +69,28 @@
 	height: auto;
 }
             
-/* Linea divisoria */
+/* stile linea divisoria */
 .main-content hr {
    border: none; 
    height: 3px; 
    background-color: #ff0000;
 }
 
-/* titolo 1 */
+/* stile titolo 1 */
 .main-content h1 {
 	font-family: Georgia,sans-serif;
 	text-indent: 30px; 
 	font-size: 2.0em;
 }
 		
-/* titolo 2 */
+/* stile titolo 2 */
 .main-content h2 {
 	font-family: Georgia, sans-serif; 
 	text-indent: 30px; 
 	font-size: 1.2em;
 }		
 
-/* titolo 3 */
+/* stile titolo 3 */
 .main-content h3 {
 	font-family: Georgia; 
 	text-indent: 60px; 
@@ -98,7 +98,7 @@
 	font-size: 1.2em;
 }
 
-/* paragrafo */
+/* stile paragrafo */
 .main-content p {
 	font-family: Georgia; 
 	text-indent: 50px; 
@@ -119,8 +119,8 @@
 
 /* tabella shop */		
 .main-content .tabella-shop{
-	border-bottom: 2px solid black; /* Colore e spessore della riga */
-   padding: 12px 8px; /* Spaziatura per far respirare il testo */
+	border-collapse: colapse; 
+   padding: 12px;
    text-align: left;
 }
 
@@ -137,8 +137,9 @@
 	text-align: center;
 }
 
+/* stile pagina attività */
 .main-content li {
-	margin-bottom: 20px; /* Regola i pixel in base allo spazio desiderato per mantenere le immagini in colonna */
+	margin-bottom: 20px;
 }
 
 .main-content .immagini-attivita {

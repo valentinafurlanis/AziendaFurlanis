@@ -100,20 +100,20 @@
 			font-size: 1.0em;
 		}
 		
-		.tabella-introdizione {
+		.main-content .tabella-introdizione {
 			margin-left: 60px; 
 			margin-right: 90px; 
 			display:block;
 		}
 		
-		.tabella-immagini {
+		.main-content .tabella-immagini {
 			margin: auto;
 		}
 		
-		.tabellashop {
+		.main-content .tabellashop {
 		}
 		
-		.contatti {
+		.main-content .contatti {
 			text-align: center;
 		}
 

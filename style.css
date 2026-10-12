@@ -99,9 +99,14 @@
 }
 
 /* paragrafo */
-.main-content p {
+.main-content .paragrafo-home {
 	font-family: Georgia; 
 	text-indent: 50px; 
+	font-size: 1.0em;
+}
+/* paragrafo */
+.main-content p {
+	font-family: Georgia;
 	font-size: 1.0em;
 }
 

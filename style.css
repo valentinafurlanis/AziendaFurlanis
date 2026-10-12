@@ -69,32 +69,32 @@
 				height: auto;
             }
             /* Linea divisoria */
-            hr {
+            .main-content hr {
                 border: none; 
                 height: 3px; 
                 background-color: #ff0000;
             }
 
 		/* titolo 1 */
-		h1 {
+		.main-content h1 {
 			font-family: Georgia,sans-serif;
 			text-indent: 30px; 
 			font-size: 2.0em;
 		}
 		
 		/* titolo 2 */
-		h2 {
+	   .main-content h2 {
 			font-family: Georgia, sans-serif; 
 			text-indent: 30px; 
 			font-size: 1.2em;
 		
 		/* titolo 3 */
-		h3 {
+	   .main-content h3 {
 			font-family: Georgia; 
 			text-indent: 60px; 
 			color: red; 
 			font-size: 1.2em;
-		p {
+	   .main-content p {
 			font-family: Georgia; 
 			text-indent: 50px; 
 			font-size: 1.0em;

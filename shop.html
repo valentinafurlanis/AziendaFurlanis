@@ -3,67 +3,6 @@
         <link rel="icon" type="image/x-icon" href="immagini/favicon.ico">
         <title>Azienda Agricola S.lle Furlanis</title>
         <style>
-            /* Reset globale */
-            * {
-              box-sizing: border-box;
-              margin: 0;
-              padding: 0;
-            }
-
-            /* Sidebar fissa */
-            .sidebar {
-                position: fixed; /* Mantiene l'elemento fisso sullo schermo */
-                top: 0;
-                left: 0;
-                width: 250px;    
-                height: 100vh;   
-                background-color: red;
-                color: white;
-                padding: 10px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-            }
-            
-            /* Logo nella sidebar */
-            .sidebar .logo {
-                max-width: 251px;
-                margin-bottom: 10px;
-            }
-
-            /* Contenitore della navigazione */
-            .sidebar nav {
-                width: 100%;
-            }
-
-            /* Singoli elementi della lista */
-            .sidebar li {
-                margin-bottom: 15px;
-            }
-
-            /* Link di navigazione */
-            .sidebar a {
-                color: #ecf0f1;
-                text-decoration: none;
-                font-size: 18px;
-                display: block;
-                padding: 10px;
-                border-radius: 4px;
-                transition: background 0.3s;
-            }
-
-            /* Effetto hover sui link */
-            .sidebar a:hover {
-                background-color: #ff6868;
-            }
-
-            /* Contenuto principale */
-            .main-content {
-                margin-left: 250px; /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
-                padding: 40px;
-                width: calc(100% - 250px);
-            }
 
             /* Tabella */
             table {
@@ -78,14 +17,8 @@
                 padding: 12px 8px; /* Spaziatura per far respirare il testo */
                 text-align: left;
             }
-
-            /* Linea divisoria */
-            hr {
-                border: none; 
-                height: 3px; 
-                background-color: #ff0000;
-            }
-        </style>           
+        </style>    
+        <link src="style.css" rel="srylesheet" type="text/css">
     </head>
     <body>
         <!-- classe: slidebar -->

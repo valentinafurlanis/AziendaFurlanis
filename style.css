@@ -1,1 +1,89 @@
+            /* Reset globale */
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
 
+            /* Classe per immagine centrale */
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            /* Sidebar fissa */
+            .sidebar {
+                position: fixed; /* Mantiene l'elemento fisso sullo schermo */
+                top: 0;
+                left: 0;
+                width: 250px;    
+                height: 100vh;   
+                background-color: red;
+                color: white;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            }
+            
+            /* Logo nella sidebar */
+            .sidebar .logo {
+                max-width: 251px;
+                margin-bottom: 10px;
+            }
+
+            /* Contenitore della navigazione */
+            .sidebar nav {
+                width: 100%;
+            }
+
+            /* Singoli elementi della lista */
+            .sidebar li {
+                margin-bottom: 15px;
+            }
+
+            /* Link di navigazione */
+            .sidebar a {
+                color: #ecf0f1;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+                padding: 10px;
+                border-radius: 4px;
+                transition: background 0.3s;
+            }
+
+            /* Effetto hover sui link */
+            .sidebar a:hover {
+                background-color: #ff6868;
+            }
+
+            /* Contenuto principale */
+            .main-content {
+                margin-left: 250px;     /* IMPORTANTE: Distanza uguale alla larghezza della sidebar */
+                padding: 40px;
+                width: calc(100% - 250px);
+            }
+
+            /* Linea divisoria */
+            hr {
+                border: none; 
+                height: 3px; 
+                background-color: #ff0000;
+            }
+
+		/* titolo 1 */
+		H1 {
+			font-family: Georgia,sans-serif;
+			text-indent: 30px; 
+			font-size: 2.0em;
+		}
+		/* titolo 2 */
+		H2 {
+			font-family: Georgia, sans-serif; 
+			text-indent: 30px; 
+			font-size: 1.2em;
+/* titolo 3 */

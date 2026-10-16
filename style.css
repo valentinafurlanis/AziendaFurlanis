@@ -1,13 +1,13 @@
 /* Reset globale */
 * {
-	box-sizing: border-box;
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
 }
 
 /* Sidebar fissa */
 .sidebar {
-	position: fixed; /* Mantiene l'elemento fisso sullo schermo */
+   position: fixed; /* Mantiene l'elemento fisso sullo schermo */
    top: 0;
    left: 0;
    width: 250px;    
